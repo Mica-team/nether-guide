@@ -1,0 +1,7 @@
+title: Nether Launcher Guide
+description: The official Nether Launcher Guide.
+
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
