@@ -1,49 +1,58 @@
 # Nether Launcher Guide
 
-Welcome to the Nether Launcher guide!
+Welcome to the official Nether Launcher Guide.
 
-## 📱 Getting Started
+## Table of Contents
 
-### Installing Minecraft
+- [Getting Started](#getting-started)
+- [Minecraft Versions](#minecraft-versions)
+- [Java Runtimes](#java-runtimes)
+- [RAM Allocation](#ram-allocation)
+- [Renderers](#renderers)
+- [Installing Mods](#installing-mods)
+- [Installing Modpacks](#installing-modpacks)
+- [Performance](#performance)
+- [Troubleshooting](#troubleshooting)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
-...
+---
 
-## ☕ Java Runtimes
-
-...
-
-## 🧠 RAM Allocation
-
-...
-
-## 🎨 Renderers
-
-### LTW
-
-### GL4ES
-
-### ANGLE
-
-## 🧩 Installing Mods
-
-### Fabric
-
-### Forge
-
-### NeoForge
-
-## 📦 Installing Modpacks
+## Getting Started
 
 ...
 
-## ⚡ Performance
+## Minecraft Versions
 
 ...
 
-## 🛠️ Troubleshooting
+## Java Runtimes
 
 ...
 
-## ❓ Frequently Asked Questions
+## RAM Allocation
+
+...
+
+## Renderers
+
+...
+
+## Installing Mods
+
+...
+
+## Installing Modpacks
+
+...
+
+## Performance
+
+...
+
+## Troubleshooting
+
+...
+
+## Frequently Asked Questions
 
 ...
