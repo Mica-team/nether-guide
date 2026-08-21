@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        {{ page.title | default: "Nether Launcher Guide" }}
+    </title>
+
+    <meta
+        name="description"
+        content="{{ page.description | default: 'The official Nether Launcher Guide.' }}"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ '/style.css' | relative_url }}"
+    >
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <div class="header-content">
+
+            <a
+                href="{{ '/' | relative_url }}"
+                class="logo"
+            >
+                Nether Launcher
+            </a>
+
+            <button
+                id="menu-button"
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- Main Layout -->
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside
+            id="sidebar"
+            class="sidebar"
+        >
+
+            <nav
+                class="navigation"
+                aria-label="Guide navigation"
+            >
+
+                <a href="#getting-started">
+                    Getting Started
+                </a>
+
+                <a href="#minecraft-versions">
+                    Minecraft Versions
+                </a>
+
+                <a href="#java-runtimes">
+                    Java Runtimes
+                </a>
+
+                <a href="#ram-allocation">
+                    RAM Allocation
+                </a>
+
+                <a href="#renderers">
+                    Renderers
+                </a>
+
+                <a href="#installing-mods">
+                    Installing Mods
+                </a>
+
+                <a href="#installing-modpacks">
+                    Installing Modpacks
+                </a>
+
+                <a href="#performance">
+                    Performance
+                </a>
+
+                <a href="#troubleshooting">
+                    Troubleshooting
+                </a>
+
+                <a href="#frequently-asked-questions">
+                    Frequently Asked Questions
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Hero -->
+            <section class="hero">
+
+                <span class="hero-label">
+                    OFFICIAL GUIDE
+                </span>
+
+                <h1>
+                    Nether Launcher Guide
+                </h1>
+
+                <p>
+                    Everything you need to know about using
+                    Nether Launcher to play Minecraft on Android.
+                </p>
+
+            </section>
+
+
+            <!-- Markdown Content -->
+            <article class="guide-content">
+
+                {{ content }}
+
+            </article>
+
+
+            <!-- Footer -->
+            <footer class="site-footer">
+
+                <p>
+                    Nether Launcher Guide
+                </p>
+
+                <p>
+                    © Nether Launcher
+                </p>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+
+    <script
+        src="{{ '/script.js' | relative_url }}"
+    ></script>
+
+</body>
+              </html>
