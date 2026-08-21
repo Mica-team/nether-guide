@@ -1,3 +1,10 @@
+---
+layout: default
+title: Nether Launcher Guide
+description: The official Nether Launcher Guide.
+permalink: /
+---
+
 # Nether Launcher Guide
 
 Welcome to the official **Nether Launcher Guide**.
