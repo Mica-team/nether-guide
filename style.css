@@ -1,0 +1,422 @@
+/* ================================
+   Nether Launcher Guide - CSS
+   ================================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f1115;
+    color: #e8e8e8;
+    line-height: 1.6;
+}
+
+/* ================================
+   Header
+   ================================ */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+
+    background: #171a21;
+    border-bottom: 1px solid #292d36;
+}
+
+header h1 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* ================================
+   Menu Button
+   ================================ */
+
+#menuButton {
+    display: none;
+
+    margin-right: 15px;
+
+    padding: 8px 11px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #242832;
+    color: white;
+
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#menuButton:hover {
+    background: #303541;
+}
+
+/* ================================
+   Sidebar
+   ================================ */
+
+#sidebar {
+    position: fixed;
+
+    top: 64px;
+    left: 0;
+    bottom: 0;
+
+    width: 260px;
+
+    padding: 20px 12px;
+
+    overflow-y: auto;
+
+    background: #171a21;
+    border-right: 1px solid #292d36;
+
+    z-index: 900;
+}
+
+#sidebar a {
+    display: block;
+
+    padding: 11px 14px;
+    margin-bottom: 4px;
+
+    border-radius: 8px;
+
+    color: #bfc3cc;
+    text-decoration: none;
+
+    transition:
+        background 0.15s ease,
+        color 0.15s ease;
+}
+
+#sidebar a:hover {
+    background: #242832;
+    color: white;
+}
+
+#sidebar a.active {
+    background: #303641;
+    color: white;
+}
+
+/* ================================
+   Main Content
+   ================================ */
+
+main {
+    margin-left: 260px;
+
+    max-width: 1000px;
+
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 70px;
+
+    scroll-margin-top: 90px;
+}
+
+section h2 {
+    margin-bottom: 18px;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+section h3 {
+    margin-top: 28px;
+    margin-bottom: 12px;
+
+    font-size: 21px;
+}
+
+section p {
+    margin-bottom: 15px;
+
+    color: #c9cbd1;
+}
+
+/* ================================
+   Links
+   ================================ */
+
+a {
+    color: #72a7ff;
+}
+
+a:hover {
+    color: #9bbfff;
+}
+
+/* ================================
+   Code
+   ================================ */
+
+code {
+    padding: 3px 6px;
+
+    border-radius: 5px;
+
+    background: #1d2027;
+
+    color: #e5e7eb;
+
+    font-family: monospace;
+}
+
+pre {
+    margin: 20px 0;
+
+    padding: 18px;
+
+    overflow-x: auto;
+
+    border-radius: 10px;
+
+    background: #090b0f;
+
+    border: 1px solid #292d36;
+}
+
+pre code {
+    padding: 0;
+
+    background: transparent;
+
+    color: #e5e7eb;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+/* ================================
+   Info Cards
+   ================================ */
+
+.card {
+    margin: 20px 0;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    background: #171a21;
+    border: 1px solid #292d36;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* ================================
+   Warning / Important Boxes
+   ================================ */
+
+.warning {
+    margin: 20px 0;
+
+    padding: 16px 18px;
+
+    border-radius: 10px;
+
+    background: #241f14;
+    border: 1px solid #55471f;
+
+    color: #e7dcae;
+}
+
+.info {
+    margin: 20px 0;
+
+    padding: 16px 18px;
+
+    border-radius: 10px;
+
+    background: #151f2c;
+    border: 1px solid #283f5d;
+
+    color: #c7dcf7;
+}
+
+/* ================================
+   Lists
+   ================================ */
+
+ul,
+ol {
+    margin: 15px 0 20px 25px;
+}
+
+li {
+    margin-bottom: 7px;
+    color: #c9cbd1;
+}
+
+/* ================================
+   Back To Top
+   ================================ */
+
+#backToTop {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #242832;
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        opacity 0.2s ease,
+        visibility 0.2s ease,
+        background 0.2s ease;
+
+    z-index: 1100;
+}
+
+#backToTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#backToTop:hover {
+    background: #343a47;
+}
+
+/* ================================
+   Mobile Overlay
+   ================================ */
+
+#overlay {
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    z-index: 800;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        opacity 0.2s ease,
+        visibility 0.2s ease;
+}
+
+#overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ================================
+   Mobile
+   ================================ */
+
+@media (max-width: 768px) {
+
+    #menuButton {
+        display: block;
+    }
+
+    #sidebar {
+        transform: translateX(-100%);
+
+        transition: transform 0.25s ease;
+
+        width: 270px;
+    }
+
+    #sidebar.open {
+        transform: translateX(0);
+    }
+
+    main {
+        margin-left: 0;
+
+        padding: 25px 18px;
+    }
+
+    section h2 {
+        font-size: 26px;
+    }
+
+    section h3 {
+        font-size: 20px;
+    }
+
+    pre {
+        padding: 14px;
+
+        font-size: 13px;
+    }
+}
+
+/* ================================
+   Small Phones
+   ================================ */
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 0 12px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 20px 14px;
+    }
+
+    section {
+        margin-bottom: 50px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    #sidebar {
+        width: 250px;
+    }
+
+    #backToTop {
+        right: 15px;
+        bottom: 15px;
+    }
+  }
