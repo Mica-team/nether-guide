@@ -145,32 +145,6 @@ When asking for help, providing the crash log is usually much more useful than s
 
 ---
 
-## Frequently Asked Questions
+## Notice ⚠️
 
-### Can Nether Launcher run older Minecraft versions?
-
-Yes. Nether Launcher is designed to support a wide range of Minecraft: Java Edition versions.
-
-### Can I install mods?
-
-Yes. Mods can be installed when they are compatible with your Minecraft version and mod loader.
-
-### Can I install modpacks?
-
-Yes. Nether Launcher has a built-in modpack system using Modrinth and CurseForge as sources.
-
-### Why does Minecraft crash after installing a mod?
-
-The mod may be incompatible with your Minecraft version, mod loader, Java runtime, renderer, or another installed mod.
-
-### Where can I get help?
-
-You can get help from the **[Nether Launcher Discord server](https://discord.gg/4V4bjdgAFg)**.
-
----
-
-## More Coming Soon
-
-This guide is still being developed.
-
-More detailed guides, tutorials, troubleshooting information, and explanations will be added as Nether Launcher continues to improve.
+Nether Launcher is still a working in progress app, you can still play minecraft though which is good!
